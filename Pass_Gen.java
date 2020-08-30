@@ -58,7 +58,7 @@ public class Pass_Gen extends Frame implements ActionListener,WindowListener {
 	        String Word = String.valueOf(password);
 	        text.setText(Word);
 	        try {
-  			  FileWriter myPass = new FileWriter("C:\\Users\\ak17j\\Desktop\\Password");
+  			  FileWriter myPass = new FileWriter("*add path*");
   			  for(int j=0;j<Word.length();j++)
   			  {
   				 myPass.write(Word.charAt(j));
